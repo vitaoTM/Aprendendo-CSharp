@@ -6,15 +6,20 @@ namespace Aprendendo_CSharp
     {
         static void Main(string[] args)
         {
-            string titular = "Bruce Waine";
-            string conta = "BAT";
-            int agencia = 42;
-            double saldo = 100000.99;
+            using ContaCorrente;
+            ContaCorrente conta1 = new ContaCorrente();
+            conta1.titular = "Bruce Waine";
+            conta1.conta = "12345-6";
+            conta1.nome_agencia = "BatBank";
+            conta1.numero_agencia = 42;
+            conta1.saldo = 100000000000.99;
 
-            Console.WriteLine($"Titular: {titular}");
-            Console.WriteLine($"Conta: {conta}");
-            Console.WriteLine($"Agencia: {agencia}");
-            Console.WriteLine($"Saldo: {saldo}");
+
+            Console.WriteLine($"Titular: {conta1.titular}");
+            Console.WriteLine($"Conta: {conta1.conta}");
+            Console.WriteLine($"Agencia: {conta1.numero_agencia}");
+            Console.WriteLine($"Saldo: {conta1.nome_agencia}");
+            Console.WriteLine($"Saldo: {conta1.saldo}");
 
             Console.ReadKey();
         }
