@@ -1,0 +1,13 @@
+C:\Users\vitaoTM\Documents\LOGICA\CSharp\Aprendendo-CSharp\bin\Debug\netcoreapp3.1\Aprendendo-CSharp.exe
+C:\Users\vitaoTM\Documents\LOGICA\CSharp\Aprendendo-CSharp\bin\Debug\netcoreapp3.1\Aprendendo-CSharp.deps.json
+C:\Users\vitaoTM\Documents\LOGICA\CSharp\Aprendendo-CSharp\bin\Debug\netcoreapp3.1\Aprendendo-CSharp.runtimeconfig.json
+C:\Users\vitaoTM\Documents\LOGICA\CSharp\Aprendendo-CSharp\bin\Debug\netcoreapp3.1\Aprendendo-CSharp.runtimeconfig.dev.json
+C:\Users\vitaoTM\Documents\LOGICA\CSharp\Aprendendo-CSharp\bin\Debug\netcoreapp3.1\Aprendendo-CSharp.dll
+C:\Users\vitaoTM\Documents\LOGICA\CSharp\Aprendendo-CSharp\bin\Debug\netcoreapp3.1\Aprendendo-CSharp.pdb
+C:\Users\vitaoTM\Documents\LOGICA\CSharp\Aprendendo-CSharp\obj\Debug\netcoreapp3.1\Aprendendo-CSharp.csprojAssemblyReference.cache
+C:\Users\vitaoTM\Documents\LOGICA\CSharp\Aprendendo-CSharp\obj\Debug\netcoreapp3.1\Aprendendo-CSharp.AssemblyInfoInputs.cache
+C:\Users\vitaoTM\Documents\LOGICA\CSharp\Aprendendo-CSharp\obj\Debug\netcoreapp3.1\Aprendendo-CSharp.AssemblyInfo.cs
+C:\Users\vitaoTM\Documents\LOGICA\CSharp\Aprendendo-CSharp\obj\Debug\netcoreapp3.1\Aprendendo-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\vitaoTM\Documents\LOGICA\CSharp\Aprendendo-CSharp\obj\Debug\netcoreapp3.1\Aprendendo-CSharp.dll
+C:\Users\vitaoTM\Documents\LOGICA\CSharp\Aprendendo-CSharp\obj\Debug\netcoreapp3.1\Aprendendo-CSharp.pdb
+C:\Users\vitaoTM\Documents\LOGICA\CSharp\Aprendendo-CSharp\obj\Debug\netcoreapp3.1\Aprendendo-CSharp.genruntimeconfig.cache

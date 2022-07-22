@@ -1,4 +1,4 @@
-# Aprendendo C#
+# Aprendendo C# - BatBank
 Projeto de aula, em manipulação de objetos usando C#
 
 Olá, nesse ropositorio desenvolvo um projeto simple de conta bancária, utilizando o nome de BATBANK 
