@@ -1,4 +1,4 @@
-namespace Aprendendo_CSharp
+namespace Aprendendo_CSharp.Titular
 {
     public class Cliente
     {
@@ -6,13 +6,5 @@ namespace Aprendendo_CSharp
         public string CPF { get; set;} 
         public string Profissao {get; set;} 
     }
-    public class Endereco
-    {
-        
-        public string rua; 
-        public string bairro;
-        public string cidade;
-        public string cep;
-        public int numero;
-    }
+
 }
