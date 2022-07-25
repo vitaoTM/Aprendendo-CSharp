@@ -14,6 +14,15 @@ namespace Aprendendo_CSharp
                 conta1.nome_agencia = "BatBank";
                 conta1.numero_agencia = 42;
                 conta1.saldo = 100000000000.99;
+
+
+                ContaCorrente conta2 = new ContaCorrente();
+                conta2.titular = "Mulher Gato";
+                conta2.conta = "12345-7";                
+                conta2.nome_agencia = "BatBank";
+                conta2.conta = 42;
+                conta2.conta = 200000.01;          
+                
             }
 
 
