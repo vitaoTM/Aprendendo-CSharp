@@ -2,9 +2,9 @@ namespace Aprendendo_CSharp
 {
     public class Cliente
     {
-        public string nome;
-        public string CPF; 
-        public string Profissao; 
+        public string nome {get; set;};
+        public string CPF { get; set;} 
+        public string Profissao {get; set;} 
     }
     public class Endereco
     {

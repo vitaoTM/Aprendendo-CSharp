@@ -1,7 +1,15 @@
+using Aprendendo_CSharp;
+using Aprendendo_CSharp.Titular;
+
 namespace Aprendendo_CSharp
 {
     public class ContaCorrente
     {
+        public Cliente Titular
+        {
+            get; 
+            set;
+        }
         public publicstring titular;
         public string conta;
         public string nome_agencia;
@@ -51,6 +59,22 @@ namespace Aprendendo_CSharp
             destino.saldo = destino.saldo + valor;
             return true;
 
+        }
+    }
+
+    public double Saldo
+    {
+        get
+        {
+            return saldo;
+        }
+        set
+        {
+            if(value <0)
+            {
+                return;
+            }   
+            saldo = value;
         }
     }
 }
