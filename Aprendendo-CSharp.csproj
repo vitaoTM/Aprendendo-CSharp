@@ -4,6 +4,8 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Aprendendo_CSharp</RootNamespace>
+    <ImplicitUsing>enable</ImplicitUsing>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
 </Project>

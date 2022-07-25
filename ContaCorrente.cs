@@ -4,58 +4,50 @@ using Aprendendo_CSharp.Titular;
 namespace Aprendendo_CSharp
 {
     public class ContaCorrente
-    {
+    {     
+       
+        public Cliente Titular{get;set;}
+        public string Nome_Agencia{ get; set; }
 
-        public ContaCorrente(Cliente titular, string nome_Agencia) 
-        {
-            this.Titular = titular;
-                this.Nome_Agencia = nome_Agencia;
-               
-        }
-        public ContaCorrente(Cliente titular, string nome_Agencia) 
-        {
-            this.Titular = titular;
-                this.Nome_Agencia = nome_Agencia;
-               
-        }
-        public ContaCorrente(Cliente titular, string nome_Agencia) 
-        {
-            this.Titular = titular;
-                this.Nome_Agencia = nome_Agencia;
-               
-        }
-        public ContaCorrente(Cliente titular, string nome_Agencia) 
-        {
-            this.Titular = titular;
-                this.Nome_Agencia = nome_Agencia;
-               
-        }
-        public ContaCorrente(Cliente titular, string nome_Agencia) 
-        {
-            this.Titular = titular;
-                this.Nome_Agencia = nome_Agencia;
-               
-        }
-        public ContaCorrente(Cliente titular, string nome_Agencia) 
-        {
-            this.Titular = titular;
-                this.Nome_Agencia = nome_Agencia;
-               
-        }
-                                                        public Cliente Titular { get; set; }
-        public string Nome_Agencia { get; set; }
+        private int _numero_agencia;
         public int Numero_agencia
         {
-            get;
+            get
+            {
+                return _numero_agencia;
+            }
+            set
+            {
+                if(value <= 0)
+                {
 
-            set;
-            
-
+                }
+                else
+                {
+                    _numero_agencia = value;
+                }
+            }
+        
         }
+
+        private string _conta;
         public string Conta
         {
-            get;
-            set;
+            get
+            {
+                return _conta;
+            }
+            set
+            {
+                if(value == null)
+                {
+                    return;
+                }
+                else
+                {
+                    _conta = value;
+                }
+            }
         }
 
         private double saldo;
@@ -80,11 +72,11 @@ namespace Aprendendo_CSharp
 
         public bool Sacar(double valor)
         {
-            if (saldo < valor)
+            if(saldo < valor)
             {
                 return false;
             }
-            if (valor < 0)
+            if(valor < 0)
             {
                 return false;
             }
@@ -104,13 +96,13 @@ namespace Aprendendo_CSharp
             saldo = saldo + valor;
         }
 
-        public bool Transferir(double valor, ContaCorrente destino)
+        public bool Transferir(double valor,ContaCorrente destino)
         {
-            if (saldo < valor)
+            if(saldo < valor)
             {
                 return false;
             }
-            if (valor < 0)
+            if(valor <0)
             {
                 return false;
             }
@@ -121,7 +113,16 @@ namespace Aprendendo_CSharp
                 return true;
             }
         }
+           
+        public ContaCorrente(int numero_agencia,string conta)
+        {
+            Numero_agencia = numero_agencia;
+            Conta = conta;
+            TotalDeContasCriadas += 1;
 
-       
+        }
+
+        public static int TotalDeContasCriadas { get; set; }
+
     }
 }
