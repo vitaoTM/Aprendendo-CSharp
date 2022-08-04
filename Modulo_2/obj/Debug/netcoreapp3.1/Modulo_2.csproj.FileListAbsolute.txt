@@ -1,0 +1,4 @@
+C:\Users\vitaoTM\Documents\LOGICA\CSharp\Aprendendo-CSharp\Modulo_2\obj\Debug\netcoreapp3.1\Modulo_2.csprojAssemblyReference.cache
+C:\Users\vitaoTM\Documents\LOGICA\CSharp\Aprendendo-CSharp\Modulo_2\obj\Debug\netcoreapp3.1\Modulo_2.AssemblyInfoInputs.cache
+C:\Users\vitaoTM\Documents\LOGICA\CSharp\Aprendendo-CSharp\Modulo_2\obj\Debug\netcoreapp3.1\Modulo_2.AssemblyInfo.cs
+C:\Users\vitaoTM\Documents\LOGICA\CSharp\Aprendendo-CSharp\Modulo_2\obj\Debug\netcoreapp3.1\Modulo_2.csproj.CoreCompileInputs.cache
